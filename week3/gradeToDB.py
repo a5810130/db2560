@@ -20,8 +20,8 @@ def main():
     "	`Student_id` varchar(13) NOT NULL,	"
     "	`First_name` varchar(100) NOT NULL,"
     " 	`Last_name` varchar(100) NOT NULL,"
-    " 	PRIMARY KEY (`Student_id`),"
-	"	UNIQUE (Student_id))")
+    " 	PRIMARY KEY (`Student_id`))")
+	#"	UNIQUE (Student_id))")
 	tables['Student_Records'] = (
     "CREATE TABLE `Student_Records` ("
     "  	`PK` int(11) NOT NULL AUTO_INCREMENT,"
